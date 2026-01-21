@@ -34,10 +34,6 @@ The system allows users to enter car details and receive a **predicted selling p
 - Streamlit
 - Requests
 
-### Deployment
-- Railway / Render (API)
-- Streamlit Cloud / Railway (UI)
-
 ---
 
 ## 🏗️ Architecture
@@ -172,11 +168,6 @@ streamlit run streamlit_app.py
 Frontend runs at:
 http://localhost:8501
 
-### 🌍 Deployment
-* Backend deployed using FastAPI
-* Frontend deployed using Streamlit
-* Services communicate via REST API
-* Free-tier compatible deployment strategy
 
 ### 🔮 Future Improvements
 * Increase dataset size
